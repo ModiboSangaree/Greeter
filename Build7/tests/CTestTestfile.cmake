@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/sangare/Greeter/tests
+# Build directory: C:/sangare/Greeter/Build7/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(test-message "C:/sangare/Greeter/Build7/tests/Debug/test-message.exe")
+  set_tests_properties(test-message PROPERTIES  _BACKTRACE_TRIPLES "C:/sangare/Greeter/tests/CMakeLists.txt;18;add_test;C:/sangare/Greeter/tests/CMakeLists.txt;22;add_greeter_test;C:/sangare/Greeter/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(test-message "C:/sangare/Greeter/Build7/tests/Release/test-message.exe")
+  set_tests_properties(test-message PROPERTIES  _BACKTRACE_TRIPLES "C:/sangare/Greeter/tests/CMakeLists.txt;18;add_test;C:/sangare/Greeter/tests/CMakeLists.txt;22;add_greeter_test;C:/sangare/Greeter/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(test-message "C:/sangare/Greeter/Build7/tests/MinSizeRel/test-message.exe")
+  set_tests_properties(test-message PROPERTIES  _BACKTRACE_TRIPLES "C:/sangare/Greeter/tests/CMakeLists.txt;18;add_test;C:/sangare/Greeter/tests/CMakeLists.txt;22;add_greeter_test;C:/sangare/Greeter/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(test-message "C:/sangare/Greeter/Build7/tests/RelWithDebInfo/test-message.exe")
+  set_tests_properties(test-message PROPERTIES  _BACKTRACE_TRIPLES "C:/sangare/Greeter/tests/CMakeLists.txt;18;add_test;C:/sangare/Greeter/tests/CMakeLists.txt;22;add_greeter_test;C:/sangare/Greeter/tests/CMakeLists.txt;0;")
+else()
+  add_test(test-message NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(test-build-info "C:/sangare/Greeter/Build7/tests/Debug/test-build-info.exe")
+  set_tests_properties(test-build-info PROPERTIES  _BACKTRACE_TRIPLES "C:/sangare/Greeter/tests/CMakeLists.txt;18;add_test;C:/sangare/Greeter/tests/CMakeLists.txt;23;add_greeter_test;C:/sangare/Greeter/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(test-build-info "C:/sangare/Greeter/Build7/tests/Release/test-build-info.exe")
+  set_tests_properties(test-build-info PROPERTIES  _BACKTRACE_TRIPLES "C:/sangare/Greeter/tests/CMakeLists.txt;18;add_test;C:/sangare/Greeter/tests/CMakeLists.txt;23;add_greeter_test;C:/sangare/Greeter/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(test-build-info "C:/sangare/Greeter/Build7/tests/MinSizeRel/test-build-info.exe")
+  set_tests_properties(test-build-info PROPERTIES  _BACKTRACE_TRIPLES "C:/sangare/Greeter/tests/CMakeLists.txt;18;add_test;C:/sangare/Greeter/tests/CMakeLists.txt;23;add_greeter_test;C:/sangare/Greeter/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(test-build-info "C:/sangare/Greeter/Build7/tests/RelWithDebInfo/test-build-info.exe")
+  set_tests_properties(test-build-info PROPERTIES  _BACKTRACE_TRIPLES "C:/sangare/Greeter/tests/CMakeLists.txt;18;add_test;C:/sangare/Greeter/tests/CMakeLists.txt;23;add_greeter_test;C:/sangare/Greeter/tests/CMakeLists.txt;0;")
+else()
+  add_test(test-build-info NOT_AVAILABLE)
+endif()
